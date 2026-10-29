@@ -58,6 +58,10 @@ html{
     color: white;
 }
 
+#home p{
+    font-family: Verdana, sans-serif;
+}
+
 #home::before{
     content:"";
     position: absolute;
@@ -135,11 +139,13 @@ html{
     color: orange;
     font-size: 2rem;
     margin-bottom: 40px;
+    font-family: Verdana, sans-serif;
 }
 
 .box p{
     color:cyan;
     font-size: 1.1rem;
+    font-family: Verdana, sans-serif;
 }
 
 #about{
@@ -173,10 +179,12 @@ html{
 
 .name h2{
     font-size: 2rem;
+    font-family: Verdana, sans-serif;
 }
 
 .name p{
     font-size: 1.2rem;
+    font-family: Verdana, sans-serif;
 }
 
 #contact{
