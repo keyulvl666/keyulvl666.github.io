@@ -1,8 +1,8 @@
 @media (max-width: 480px) {
     section {
     min-height: 100svh;
-    display: flex !important;
-    flex-direction: column !important;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     }
 }
