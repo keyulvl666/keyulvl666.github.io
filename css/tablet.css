@@ -14,38 +14,46 @@
 }
 
 .box{
-    height: 150px;
-    width:300px;
+    height: 400px;
+    width: 350px;
     border-radius: 20px;
     margin: 10px;
     padding: 10px;
 }
 
 .box h2{
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     margin-bottom: 20px;
 }
 
 .box p{
-    font-size: 1rem;
+    font-size: 1.8rem;
+}
+
+.about{
+    display: flex;
+    flex-direction: column !important;
+    text-align: justify;
+    height: 100%;
 }
 
 .about img{
     padding: 0px 20px;
     width: auto;
-    height: 300px;
+    height: 500px;
 }
 
 .name{
+    margin-top: 50px;
     padding: 5px;
 }
 
 .name h2{
-    font-size: 1.7rem;
+    font-size: 2rem;
 }
 
 .name p{
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .fade {
@@ -57,4 +65,30 @@
 .fade.show {
     opacity: 1;
     transform: translateY(0);
+}
+
+#home p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#tech-stack h4{
+    color: white;
+    text-align: center;
+    font-family: verdana, sans-serif;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+#projects h4{
+    color: white;
+    text-align: center;
+    font-family: verdana, sans-serif;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.gallery img{
+    width: auto;
+    height: 300px;
 }

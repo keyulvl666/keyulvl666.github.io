@@ -1,6 +1,7 @@
 *{
   margin:0;
   padding:0;
+  box-sizing: border-box;
 }
 
 section:not(#home){
@@ -127,23 +128,35 @@ html{
 }
 
 #tech-stack h1{
-    margin: 60px;
+    margin-top: 60px;
+}
+
+#tech-stack h4{
+    color: white;
+    text-align: center;
+    font-family: verdana, sans-serif;
+    font-size: 0.8rem;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .columns{
     display: grid;
     grid-template-columns: auto auto;
-    padding-left: 50px;
     align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
 
 .box{
     height: 200px;
-    width:500px;
+    width:450px;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 20px;
     margin: 10px;
     padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .box h2{
