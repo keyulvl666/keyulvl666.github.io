@@ -133,6 +133,7 @@ html{
     display: grid;
     grid-template-columns: auto auto;
     padding-left: 50px;
+    align-items: center;
 }
 
 .box{

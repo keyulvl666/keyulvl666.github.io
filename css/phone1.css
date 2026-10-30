@@ -1,6 +1,16 @@
+@media (min-width: 481px) and (max-width: 600px) {
+    section {
+    min-height: 100svh;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center;
+    }
+}
+
 .columns{
     grid-template-columns: auto;
     justify-content: center;
+    align-items: center;
 }
 
 .box{
@@ -12,12 +22,10 @@
 }
 
 .box h2{
-    color: purple;
     font-size: 2rem;
     margin-bottom: 40px;
 }
 .box p{
-    color: rgb(209, 38, 75);
     font-size: 1.1rem;
 }
 
@@ -35,18 +43,21 @@
     height: 360px;
 }
 
-.about{
+.about {
+    display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .about h2{
     text-align: center;
 }
 
-.about img{
+.about .profile-pic{
     width: auto;
     height: 150px;
-    padding: 0px 15px;
+    padding: 0 15px;
+    order: -1;
 }
 
 .message{
@@ -55,19 +66,17 @@
 }
 
 .box{
-    height: 150px; width:250px;
-    background-color: rgba(255, 255, 255, 0.1);
+    height: 150px;
+    width:250px;
     border-radius: 20px;
     margin: 10px;
     padding: 10px;
 }
 .box h2{
-    color: rgb(59, 129, 62);
     font-size: 1.2rem;
     margin-bottom: 20px;
 }
 
 .box p{
-    color: rgb(13, 59, 59);
     font-size: .8rem;
 }

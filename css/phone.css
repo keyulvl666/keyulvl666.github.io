@@ -1,12 +1,21 @@
+@media (max-width: 480px) {
+    section {
+    min-height: 100svh;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center;
+    }
+}
+
 .columns{
     grid-template-columns: auto;
     justify-content: center;
+    align-items: center;
 }
 
 .box{
     height: 200px;
     width:500px;
-    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 20px;
     margin: 10px;
     padding: 20px;
@@ -14,12 +23,10 @@
 
 
 .box h2{
-    color: purple;
     font-size: 2rem;
     margin-bottom: 40px;
 }
 
 .box p{
-    color:rgb(209, 38, 75);
     font-size: 1.1rem;
 }
