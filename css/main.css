@@ -60,6 +60,7 @@ html{
 
 #home p{
     font-family: Verdana, sans-serif;
+    text-align: center;
 }
 
 #home::before{
@@ -277,4 +278,15 @@ footer {
 
 .tooltip:hover .tooltiptext {
     visibility: visible;
+}
+
+.fade {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1.2s ease, transform 1.2s ease;
+}
+
+.fade.show {
+    opacity: 1;
+    transform: translateY(0);
 }
