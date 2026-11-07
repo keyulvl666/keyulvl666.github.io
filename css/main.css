@@ -10,6 +10,20 @@ section:not(#home){
 
 html{
   scroll-behavior:smooth;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: clip;
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+section {
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar{
@@ -69,7 +83,7 @@ html{
     position: absolute;
     top:0;
     left:0;
-    background: url("../img/homebannertg.jpeg") no-repeat center center/cover;
+    background: url("../img/bannr.png") no-repeat right center/cover;
     height:700px;
     width:100%;
     z-index: -1;
@@ -245,16 +259,17 @@ html{
 
 footer {
     position: fixed;
-    left:0;
-    bottom:0;
-    width:100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
     background-color: darkred;
-    color:aliceblue;
+    color: aliceblue;
     text-align: center;
 }
 
 .footer-content{
-    max-width: 960px;
+    max-width: none;
     margin: 0 auto;
     font-family: monospace;
     font-style: normal;
